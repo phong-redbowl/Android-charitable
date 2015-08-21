@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#400080"
+    tools:context="demoapp.akiraaman.demo_sqlite.DangKy_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÍ THÔNG TIN"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tài Khoản : "
+        android:textColor="#FFFF00"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật Khẩu : "
+        android:textColor="#FFFF00"
+        android:textSize="15dp"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác Nhập MK : "
+        android:textColor="#FFFF00"
+        android:textSize="15dp"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên Chủ TK : "
+        android:textColor="#FFFF00"
+        android:textSize="15dp"
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa Chỉ : "
+        android:textColor="#FFFF00"
+        android:textSize="15dp"
+        android:layout_marginTop="250dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SĐT : "
+        android:textColor="#FFFF00"
+        android:textSize="15dp"
+        android:layout_marginTop="300dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:id="@+id/editTextTK"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="100dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:id="@+id/editTextMK"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="100dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:id="@+id/editTextXNMK"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="100dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:id="@+id/editTextTenChuTK"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="100dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:id="@+id/editTextDiaChi"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="100dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/editTextSDT"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="100dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Đăng Ký"
+        android:textStyle="bold"
+        android:id="@+id/buttonDangKy"
+        android:background="#39C65C"
+        android:layout_below="@+id/editTextSDT"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

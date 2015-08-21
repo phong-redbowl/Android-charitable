@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Demo_Sqlite</string>
+    <string name="notmatch">Mật khẩu không khớp nhau</string>
+    <string name="loginsuccess">Đăng nhập thành công</string>
+    <string name="loginerror">Mật khẩu không đúng</string>
+    <string name="notfoundTK">Tài khoản không tồn tại</string>
+    <string name="signsuccess">Đăng ký thành công</string>
+    <string name="changepass_success">Đổi mật khẩu thành công</string>
+    <string name="changepass_error">Đổi mật khẩu thất bại</string>
+    <string name="delete_success">Xóa thành công</string>
+    <string name="delete_error">Xóa thất bại</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dang_ky_">DangKy_Activity</string>
+    <string name="title_activity_quan_ly_">QuanLy_Activity</string>
+    <string name="title_activity_admin_">Admin_Activity</string>
+</resources>
